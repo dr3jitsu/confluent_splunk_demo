@@ -39,7 +39,7 @@
           SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: broker:29092
 
       kafka-connect:
-        image: confluentinc/cp-kafka-connect:latest
+        image: confluentinc/cp-server-connect:latest
         container_name: kafka-connect
         user: root
         depends_on:
