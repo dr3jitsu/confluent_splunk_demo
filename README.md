@@ -27,7 +27,7 @@ This demo is using the cisco:asa sample logs from the Splunk Boss of the SOC (BO
 
 ## Running on localhost
 ```
-1. git clone https://github.com/JohnnyMirza/confluent_splunk_demo.git
+1. git clone https://github.com/dr3jitsu/confluent_splunk_demo.git
 2. cd confluent_splunk_demo 
 3. docker-compose up -d
 ```
